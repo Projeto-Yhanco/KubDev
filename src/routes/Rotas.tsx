@@ -14,8 +14,7 @@ export function Rotas(){
                 <Route path="/carreira" element={<Carreira/>}/>
                 <Route path="/about" element={<AbouUs/>}/>
                 <Route path="/formacoes" element={<Formacoes/>}/>
-            </Route> 
-           
+            </Route>       
         </Routes>
        
     )

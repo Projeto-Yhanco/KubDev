@@ -7,16 +7,16 @@ export function Header(){
             <img src={KubDev} alt="logotipo" className="ml-[38px] mt-[20px] w-[120px] h-[51px]"/>
             
             <nav className="w-[600px] h-[32px] flex flex-row mt-[25px] ml-[300px] space-x-10 list-none">
-            <NavLink to="/" title='Início'className="ml-[80px] text-white text-[22px] hover:text-[#41FA7E]">
+            <NavLink to="/" title='Início'className="active ml-[80px] text-[#41FA7E] text-[18px] hover:text-[#41FA7E]">
                 <li>Home</li>
             </NavLink>
-            <NavLink to="/carreira" title='Carreira' className="ml-[120px]  text-white text-[22px] hover:text-[#41FA7E]">
+            <NavLink to="/carreira" title='Carreira' className="ml-[120px]  text-white text-[18px] hover:text-[#41FA7E]">
                 <li>Carreira</li>
             </NavLink>
-            <NavLink to="/formacoes" title='Contactos' className="ml-[120px] text-white text-[22px] hover:text-[#41FA7E]">
+            <NavLink to="/formacoes" title='Contactos' className="ml-[120px] text-white text-[18px] hover:text-[#41FA7E]">
                 <li>Formações</li>
             </NavLink>
-            <NavLink to="/about" title='formações' className="ml-[120px] text-white text-[22px] hover:text-[#41FA7E]">
+            <NavLink to="/about" title='formações' className="ml-[120px] text-white text-[18px] hover:text-[#41FA7E]">
                 <li>Sobre</li>
             </NavLink>
             </nav>
